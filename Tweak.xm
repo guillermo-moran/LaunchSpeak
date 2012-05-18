@@ -75,19 +75,3 @@ static NSString* userStr = [dict objectForKey:@"LSSpeech"];
 }
 
 %end
-/*
-static void SettingsChanged() {
-	if (dict != nil) { [dict release]; dict = nil; }
-
-	dict = [[NSMutableDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.gmoran.launchspeak.plist"];
-	if (dict == nil) dict = [[NSMutableDictionary alloc] init];
-}
-
-%ctor {
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	%init;
-	CFNotificationCenterAddObserver(CFNotificationCenterGetDarwinNotifyCenter(), NULL, (CFNotificationCallback)&SettingsChanged, CFSTR("com.gmoran.launchspeak.updated"), NULL, CFNotificationSuspensionBehaviorHold);
-	SettingsChanged();
-	[pool drain];
-}
-*/
