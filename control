@@ -1,0 +1,9 @@
+Package: com.gmoran.launchspeak
+Name: LaunchSpeak
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Make your iPhone speak when an app is launched!
+Maintainer: Guillermo Moran (Fr0st)
+Author: Guillermo Moran (Fr0st)
+Section: Tweaks

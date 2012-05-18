@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>LaunchSpeak Settings</string>
+			<key>footerText</key>
+			<string>Use &quot;&lt;App_Name&gt;&quot; to call the name of the application that is being launched.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.gmoran.launchspeak</string>
+			<key>key</key>
+			<string>LSToggle</string>
+			<key>label</key>
+			<string>LaunchSpeak Toggle</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.gmoran.launchspeak</string>
+			<key>key</key>
+			<string>LSSpeech</string>
+			<key>label</key>
+			<string>Launch Speech</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>footerText</key>
+			<string>Respring is required for changes to take effect.Copyright © 2012 Fr0st Development </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>restartSB:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LaunchSpeak</string>
+</dict>
+</plist>

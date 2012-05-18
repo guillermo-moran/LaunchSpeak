@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = LSSettings;
+		cell = PSLinkCell;
+		detail = "LSSettingsListController";
+		icon = "LSSettings.png";
+		isController = 1;
+		label = LaunchSpeak;
+	};
+}
